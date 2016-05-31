@@ -4,7 +4,27 @@ using System.IO;
 using System.Linq;
 
 class Solution {
-    public static void next_move(int posr, int posc, string[] board)
+    public static void Main(string[] args)
+    {
+        string temp = Console.ReadLine();
+        string[] position = temp.Split(' ');
+        int[] pos = new int[2];
+        string[] board = new string[5];
+        
+        for(int i = 0; i < 5; i++)
+        {
+            board[i] = Console.ReadLine();
+        }
+        
+        for(int i = 0; i < 2; i++)
+        {
+            pos[i] = Convert.ToInt32(position[i]);
+        }
+        
+        GetNextMove(pos[0], pos[1], board);
+    }
+    
+    public static void GetNextMove(int posr, int posc, string[] board)
     {
         //add logic here
         if (board[posr][posc] == 'd')
@@ -58,21 +78,6 @@ class Solution {
         }
 
         Console.WriteLine(m);
-        return;
-    }
-
-    public static void Main(string[] args)
-    {
-        string temp = Console.ReadLine();
-        string[] position = temp.Split(' ');
-        int[] pos = new int[2];
-        string[] board = new string[5];
-        for(int i=0;i<5;i++)
-        {
-            board[i] = Console.ReadLine();
-        }
-        for(int i=0;i<2;i++) pos[i] = Convert.ToInt32(position[i]);
-        next_move(pos[0], pos[1], board);
     }
 }
 
