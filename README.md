@@ -1,2 +1,3 @@
 # HackerRank
-My Submissions to Hacker Rank
+
+These are my Submissions to Hacker Rank.
