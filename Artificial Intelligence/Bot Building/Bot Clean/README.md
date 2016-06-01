@@ -7,3 +7,7 @@
 > The bot here is positioned at the top left corner of a 5*5 grid. Your task is to move the bot to clean all the dirty cells.
 
 You can find more about the problem [here](https://www.hackerrank.com/challenges/botclean).
+
+## My Solution
+
+The thought behind this is basically to build a list of the cells that need to be cleaned. Within that list, I also set the distance from the bot for each dirty cell. I then pick the closest cell to clean and move toward it.
