@@ -1,4 +1,4 @@
-# Bot Clean
+# BotClean
 
 > The goal of Artificial Intelligence is to create a rational agent (Artificial Intelligence 1.1.4). An agent gets input from the environment through sensors and acts on the environment with actuators. In this challenge, you will program a simple bot to perform the correct actions based on environmental input.
 
