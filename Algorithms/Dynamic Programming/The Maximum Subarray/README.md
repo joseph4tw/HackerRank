@@ -5,7 +5,7 @@
 > 1. Contiguous subarray
 > 2. Non-contiguous (not necessarily contiguous) subarray.
 
-> Empty subarrays/subsequences should not be considered.
+> The Maximum Subarray
 
 You can find more about the problem [here](https://www.hackerrank.com/challenges/maxsubarray).
 
