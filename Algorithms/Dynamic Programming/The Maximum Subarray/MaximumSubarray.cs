@@ -35,9 +35,9 @@ public static class Subarray
     
     private static int GetMaxContiguousSubarray(int[] array)
     {
-        var largestMaxSoFar = array[0];
         if (array.Any(x => x > 0))
         {
+            var largestMaxSoFar = array[0];
             var sum = array.Aggregate((currentSum, next) =>
                 {
                     largestMaxSoFar = Math.Max(next, largestMaxSoFar + next);
