@@ -1,11 +1,11 @@
-# BotClean Partially Observable
+# Maximum Subarray
 
 > Given an array A of A = {a1, a2, ..., aN} elements, find the maximum possible sum of a:
 
 > 1. Contiguous subarray
 > 2. Non-contiguous (not necessarily contiguous) subarray.
 
-> The Maximum Subarray
+> Empty subarrays/subsequences should not be considered.
 
 You can find more about the problem [here](https://www.hackerrank.com/challenges/maxsubarray).
 
