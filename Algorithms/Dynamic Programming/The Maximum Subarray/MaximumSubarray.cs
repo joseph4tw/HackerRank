@@ -37,12 +37,12 @@ public static class Subarray
     {
         if (array.Any(x => x > 0))
         {
-            var largestMaxSoFar = array[0];
-            var sum = array.Aggregate((currentSum, next) =>
+            var maxEndingHere = array[0];
+            var sum = array.Aggregate((largestMaxSoFar, next) =>
                 {
-                    largestMaxSoFar = Math.Max(next, largestMaxSoFar + next);
-                    currentSum = Math.Max(currentSum, largestMaxSoFar);
-                    return currentSum;
+                    maxEndingHere = Math.Max(next, maxEndingHere + next);
+                    largestMaxSoFar = Math.Max(largestMaxSoFar, maxEndingHere);
+                    return largestMaxSoFar;
                 });
 
             return sum;
