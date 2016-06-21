@@ -8,15 +8,15 @@ class Solution {
         
         var input = Console.ReadLine().ToLower();
         
-        var minAscii = 97;
-        var maxAscii = 122;
+        const int minAscii = 97;
+        const int maxAscii = 122;
         
         const int PangramCharacterLimit = 26;
         var pangramCharacterCount = 0;
         
         var dictionary = new Dictionary<int, int>();
         
-        // setup dictionary
+        // setup the dictionary with the ASCII values we want to look for
         for (var i = minAscii; i <= maxAscii; ++i)
         {
             dictionary.Add(i, 0);
