@@ -4,7 +4,7 @@
 
 > Shil wants to reduce S as much as possible. To do this, he will repeat the above operation as many times as it can be performed. Help Shil out by finding and printing S's non-reducible form!
 
-Note: If the final string is empty, print Empty String.
+> Note: If the final string is empty, print Empty String.
 
 You can find more about the problem [here](https://www.hackerrank.com/challenges/reduced-string).
 
