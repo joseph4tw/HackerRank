@@ -26,8 +26,8 @@ class Solution {
                 
                 if (isPalindrome(s, begin, end - 1))
                     return end;
-        		
-        		return -1;
+
+                return -1;
             }
             
             begin++;
